@@ -11,8 +11,10 @@ gulp.task('move', function () {
     gulp.src('./src/*.html', {base: './src'})
         .pipe(gulp.dest('./build'))
         .pipe(reload({stream: true}));
-});
 
+ gulp.src('./src/*.woff', {base: './src'})
+     .pipe(gulp.dest('./build'))
+});
 
 gulp.task('style', function () {
     return gulp.src('./src/less/**/*.less')

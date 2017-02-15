@@ -1,10 +1,6 @@
 @font-face {
   font-family: 'icomatrix';
-  src:url('../icomatrix.eot?7cvyol');
-  src:url('../icomatrix.eot?7cvyol#iefix') format('embedded-opentype'),
-  url('../icomatrix.ttf?7cvyol') format('truetype'),
-  url('../icomatrix.woff?7cvyol') format('woff'),
-  url('../icomatrix.svg?7cvyol#icomatrix') format('svg');
+  src: url('../icomatrix.woff?7cvyol') format('woff'),
   font-weight: normal;
   font-style: normal;
 }
@@ -29,6 +25,7 @@
 a{
   text-decoration: none;
   color: #cccccc;
+  text-transform: uppercase;
 }
 header {
   background-color: #cd1d2c;
@@ -40,6 +37,7 @@ header {
   font-size: 14px;
 }
 .headerMenu2 div{
+  letter-spacing: 0.01px;
   display:inline-block;
   text-transform: uppercase;
   font-size: 14px;
@@ -51,6 +49,7 @@ header {
 .nearestSalon {
   display:inline-block;
   margin-left: 2.1%;
+  width: 200px;
 }
 .menuPos1{
   margin-left: 16%;
@@ -60,26 +59,70 @@ header {
   height: 35px;
   background-color: #000000;
 }
-
-
 .headerColorGrey{
   background-color: #262626;
 }
 .matr-custom-logo:before {
   content: "\e900";
-  font-size: 32px;
-  line-height: 60px;
-  margin-left: 30%;
 }
 .matr-custom-search:before {
   content: "\e901";
-  font-size: 14px;
-  float:right;
-  display: block;
-  margin-left: 96%;
+  float: left;
 }
 .matr-chevron-down:before {
   content: "\f078";
 }
+.content{
+  margin-left: 220px;
+  height: 300px;
+  text-transform: uppercase;
+}
 
- 
+footer{
+  height: 60px;
+  background-color: #262626;
+  font-size: 14px;
+}
+
+.footer div{
+  color: #ffffff;
+  display:inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.textLeft{
+  padding-top: 15px;
+  width: 360px;
+  margin-left: 2.1%;
+}
+.textRight{
+  padding-top: 15px;
+  width: 250px;
+  float:right;
+}
+.contact div{
+  display:inline-block;
+  color: #ffffff;
+  font-size: 28px;
+}
+.matr-custom-facebook:before {
+  content: "\e902";
+  padding-right: 25px;
+  margin-left: 150px;
+}
+.matr-custom-instagram:before {
+  content: "\e903";
+
+}
+.matr-custom-pinterest:before {
+  content: "\e904";
+  padding-right: 25px;
+}
+.matr-custom-twitter:before {
+  content: "\e905";
+  padding-right: 25px;
+}
+.matr-custom-youtube:before {
+  content: "\e906";
+  padding-right: 25px;
+}
