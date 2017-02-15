@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomatrix';
-  src: url('../icomatrix.eot?7cvyol#iefix') format('embedded-opentype'), url('../icomatrix.ttf?7cvyol') format('truetype'), url('../icomatrix.woff?7cvyol') format('woff'), url('../icomatrix.svg?7cvyol#icomatrix') format('svg');
+  src: url('../icomatrix.woff?7cvyol') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,6 +17,33 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.matr-custom-logo:before {
+  content: "\e900";
+}
+.matr-custom-search:before {
+  content: "\e901";
+}
+.matr-chevron-down:before {
+  content: "\f078";
+}
+li {
+  list-style-type: none;
+}
+.icon-search {
+  font-size: 14px;
+  float: right;
+  display: block;
+  margin-left: 96%;
+}
+.nearest-salon {
+  display: inline-block;
+  margin-left: 2.1%;
+}
+.logo {
+  font-size: 32px;
+  line-height: 60px;
+  margin-left: 45%;
 }
 * {
   margin: 0;
@@ -44,10 +71,6 @@ header {
   height: 35px;
   line-height: 35px;
 }
-.nearestSalon {
-  display: inline-block;
-  margin-left: 2.1%;
-}
 .menuPos1 {
   margin-left: 16%;
 }
@@ -59,63 +82,45 @@ header {
 .headerColorGrey {
   background-color: #262626;
 }
-.matr-custom-logo:before {
-  content: "\e900";
-  font-size: 32px;
-  line-height: 60px;
-  margin-left: 30%;
-}
-.matr-custom-search:before {
-  content: "\e901";
-  font-size: 14px;
-  float: right;
-  display: block;
-  margin-left: 96%;
-}
-.matr-chevron-down:before {
-  content: "\f078";
-}
-
-
-.content{
-  margin-left: 220px;
+.content {
+  display: inline-block;
+  margin-left: 17%;
   width: 962px;
   height: auto;
   text-transform: uppercase;
 }
-hr{
+hr {
   border: none;
-  background-color:  #262626;
-  height: 2px;
+  background-color: #262626;
+  height: 1px;
 }
-.video1{
+.video1 {
   font-size: 50px;
   margin-top: 100px;
 }
-footer{
+footer {
   height: 60px;
   background-color: #262626;
   font-size: 14px;
 }
-
-.footer div{
+.footer div {
   color: #ffffff;
-  display:inline-block;
+  display: inline-block;
   text-transform: uppercase;
   font-size: 14px;
 }
-.textLeft{
+.textLeft {
   padding-top: 15px;
   width: 360px;
   margin-left: 2.1%;
 }
-.textRight{
+.textRight {
   padding-top: 15px;
   width: 250px;
-  float:right;
+  float: right;
 }
-.contact div{
-  display:inline-block;
+.contact div {
+  display: inline-block;
   color: #ffffff;
   font-size: 28px;
 }
@@ -126,7 +131,6 @@ footer{
 }
 .matr-custom-instagram:before {
   content: "\e903";
-
 }
 .matr-custom-pinterest:before {
   content: "\e904";

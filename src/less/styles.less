@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'icomatrix';
-  src: url('../icomatrix.woff?7cvyol') format('woff'),
+  src: url('../icomatrix.woff?7cvyol') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-[class^="matr-"], [class*=" matr-"] {
+[class^="matr-"],
+[class*=" matr-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomatrix' !important;
   speak: none;
@@ -13,32 +14,65 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*{
+.matr-custom-logo:before {
+  content: "\e900";
+
+}
+.matr-custom-search:before {
+  content: "\e901";
+
+}
+.matr-chevron-down:before {
+  content: "\f078";
+}
+li{
+  list-style-type: none;
+}
+
+.icon-search{
+  font-size: 14px;
+  float: right;
+  display: block;
+  margin-left: 96%;
+}
+.nearest-salon {
+  display: inline-block;
+  margin-left: 2.1%;
+}
+.logo{
+  font-size: 32px;
+  line-height: 60px;
+  margin-left: 45%;
+}
+.header-menu{
+
+  &-links{
+
+  }
+}
+* {
   margin: 0;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
   color: #cccccc;
-  text-transform: uppercase;
 }
 header {
   background-color: #cd1d2c;
   color: #ffffff;
-  margin:auto auto;
+  margin: auto auto;
 }
-.headerMenu1 div{
-  display:inline-block;
+.headerMenu1 div {
+  display: inline-block;
   font-size: 14px;
 }
-.headerMenu2 div{
-  letter-spacing: 0.01px;
-  display:inline-block;
+.headerMenu2 div {
+  display: inline-block;
   text-transform: uppercase;
   font-size: 14px;
   width: 7.3%;
@@ -46,38 +80,37 @@ header {
   height: 35px;
   line-height: 35px;
 }
-.nearestSalon {
-  display:inline-block;
-  margin-left: 2.1%;
-  width: 200px;
-}
-.menuPos1{
+
+
+.menuPos1 {
   margin-left: 16%;
 }
-.menuPos2:hover{
+.menuPos2:hover {
   width: 7.3%;
   height: 35px;
   background-color: #000000;
 }
-.headerColorGrey{
+.headerColorGrey {
   background-color: #262626;
 }
-.matr-custom-logo:before {
-  content: "\e900";
-}
-.matr-custom-search:before {
-  content: "\e901";
-  float: left;
-}
-.matr-chevron-down:before {
-  content: "\f078";
-}
-.content{
-  margin-left: 220px;
-  height: 300px;
+
+
+.content {
+  display: inline-block;
+  margin-left: 17%;
+  width: 962px;
+  height: auto;
   text-transform: uppercase;
 }
-
+hr {
+  border: none;
+  background-color:  #262626;
+  height: 1px;
+}
+.video1{
+  font-size: 50px;
+  margin-top: 100px;
+}
 footer{
   height: 60px;
   background-color: #262626;
@@ -126,3 +159,5 @@ footer{
   content: "\e906";
   padding-right: 25px;
 }
+
+
