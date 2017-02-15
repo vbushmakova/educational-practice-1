@@ -1,2 +1,78 @@
-/* Do not touch this file.
-   Use /src/less/styles.less instead. */
+@font-face {
+  font-family: 'icomatrix';
+  src: url('../icomatrix.eot?7cvyol');
+  src: url('../icomatrix.eot?7cvyol#iefix') format('embedded-opentype'), url('../icomatrix.ttf?7cvyol') format('truetype'), url('../icomatrix.woff?7cvyol') format('woff'), url('../icomatrix.svg?7cvyol#icomatrix') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="matr-"],
+[class*=" matr-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomatrix' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #cccccc;
+}
+header {
+  background-color: #cd1d2c;
+  color: #ffffff;
+  margin: auto auto;
+}
+.headerMenu1 div {
+  display: inline-block;
+  font-size: 14px;
+}
+.headerMenu2 div {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 7.3%;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+}
+.nearestSalon {
+  display: inline-block;
+  margin-left: 2.1%;
+}
+.menuPos1 {
+  margin-left: 16%;
+}
+.menuPos2:hover {
+  width: 7.3%;
+  height: 35px;
+  background-color: #000000;
+}
+.headerColorGrey {
+  background-color: #262626;
+}
+.matr-custom-logo:before {
+  content: "\e900";
+  font-size: 32px;
+  line-height: 60px;
+  margin-left: 30%;
+}
+.matr-custom-search:before {
+  content: "\e901";
+  font-size: 14px;
+  float: right;
+  display: block;
+  margin-left: 96%;
+}
+.matr-chevron-down:before {
+  content: "\f078";
+}
