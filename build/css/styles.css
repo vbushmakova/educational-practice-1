@@ -75,3 +75,57 @@ header {
 .matr-chevron-down:before {
   content: "\f078";
 }
+.content{
+  margin-left: 220px;
+  height: 300px;
+  text-transform: uppercase;
+}
+
+footer{
+  height: 60px;
+  background-color: #262626;
+  font-size: 14px;
+}
+
+.footer div{
+  color: #ffffff;
+  display:inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.textLeft{
+  padding-top: 15px;
+  width: 360px;
+  margin-left: 2.1%;
+}
+.textRight{
+  padding-top: 15px;
+  width: 250px;
+  float:right;
+}
+.contact div{
+  display:inline-block;
+  color: #ffffff;
+  font-size: 28px;
+}
+.matr-custom-facebook:before {
+  content: "\e902";
+  padding-right: 25px;
+  margin-left: 150px;
+}
+.matr-custom-instagram:before {
+  content: "\e903";
+
+}
+.matr-custom-pinterest:before {
+  content: "\e904";
+  padding-right: 25px;
+}
+.matr-custom-twitter:before {
+  content: "\e905";
+  padding-right: 25px;
+}
+.matr-custom-youtube:before {
+  content: "\e906";
+  padding-right: 25px;
+}

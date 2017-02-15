@@ -12,7 +12,7 @@ gulp.task('move', function () {
         .pipe(gulp.dest('./build'))
         .pipe(reload({stream: true}));
 
- gulp.src('./src/*.woff', {base: './src'})
+    gulp.src('./src/*.woff', {base: './src'})
      .pipe(gulp.dest('./build'))
 });
 
