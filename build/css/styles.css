@@ -75,12 +75,23 @@ header {
 .matr-chevron-down:before {
   content: "\f078";
 }
+
+
 .content{
   margin-left: 220px;
-  height: 300px;
+  width: 962px;
+  height: auto;
   text-transform: uppercase;
 }
-
+hr{
+  border: none;
+  background-color:  #262626;
+  height: 2px;
+}
+.video1{
+  font-size: 50px;
+  margin-top: 100px;
+}
 footer{
   height: 60px;
   background-color: #262626;
