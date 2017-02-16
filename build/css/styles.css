@@ -33,7 +33,7 @@ li {
 }
 .header {
   background-color: #cd1d2c;
-  color: #ffffff;
+  color: #cccccc;
   margin: auto auto;
   text-align: center;
   height: 60px;
@@ -57,37 +57,31 @@ li {
   line-height: 60px;
 }
 .header-menu {
-  text-align: center;
-  background-color: #444444;
-}
-.header-menu-links {
-  font-size: 16px;
-}
-.header-menu-links:hover {
-  background-color: black;
-}
-.menu {
-  width: 700px;
+  width: auto;
   height: 30px;
   margin: 0 auto;
   background-color: #444444;
   position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
 }
-.menu ul {
+.header-menu ul {
   float: left;
   position: relative;
   left: 50%;
 }
-.menu ul li {
+.header-menu ul li {
   float: left;
   position: relative;
   right: 50%;
 }
-.menu ul li a {
+.header-menu ul li a {
+  color: #cccccc;
   display: block;
-  padding: 2px 10px;
-  /* отступы */
-  color: #000000;
+  padding: 6px 10px;
+}
+.header-menu ul li a:hover {
+  background-color: black;
 }
 * {
   margin: 0;
