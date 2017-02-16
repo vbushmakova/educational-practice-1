@@ -20,19 +20,46 @@
 }
 .matr-custom-logo:before {
   content: "\e900";
-
 }
 .matr-custom-search:before {
   content: "\e901";
-
 }
 .matr-chevron-down:before {
   content: "\f078";
   display: inline-block;
 }
+.matr-custom-facebook:before {
+  content: "\e902";
+}
+.matr-custom-instagram:before {
+  content: "\e903";
+}
+.matr-custom-pinterest:before {
+  content: "\e904";
+}
+.matr-custom-twitter:before {
+  content: "\e905";
+}
+.matr-custom-youtube:before {
+  content: "\e906";
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
 li{
   list-style-type: none;  //  убрать маркер
 }
+
+
 .header {
   background-color: #cd1d2c;
   color: #cccccc;
@@ -58,8 +85,6 @@ li{
   font-size: 32px;
   line-height: 60px;
 }
-
-
 .header-menu{
   width: auto;
   height: 30px;
@@ -82,48 +107,10 @@ li{
 .header-menu ul li a{
   color: #cccccc;
   display: block;
-  padding: 6px 10px;
+  padding: 6px 15px;
   &:hover{
     background-color: black;
   }
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-  color: #cccccc;
-}
-
-.headerMenu1 div {
-  display: inline-block;
-  font-size: 14px;
-}
-.headerMenu2 div {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 14px;
-  width: 7.3%;
-  text-align: center;
-  height: 35px;
-  line-height: 35px;
-}
-
-
-.menuPos1 {
-  margin-left: 16%;
-}
-.menuPos2:hover {
-  width: 7.3%;
-  height: 35px;
-  background-color: #000000;
-}
-.headerColorGrey {
-  background-color: #262626;
 }
 
 
@@ -143,53 +130,42 @@ hr {
   font-size: 50px;
   margin-top: 100px;
 }
-footer{
+
+
+
+.footer{
   height: 60px;
   background-color: #262626;
+  color: #cccccc;
   font-size: 14px;
-}
-
-.footer div{
-  color: #ffffff;
-  display:inline-block;
+  text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
 }
-.textLeft{
-  padding-top: 15px;
-  width: 360px;
+.footer-menu{
+  float:left;
+  text-align: left;
   margin-left: 2.1%;
+  margin-top: 15px;
+  & a{
+    margin-right: 15px;
+  }
 }
-.textRight{
-  padding-top: 15px;
-  width: 250px;
-  float:right;
-}
-.contact div{
+.icon-contact{
   display:inline-block;
-  color: #ffffff;
   font-size: 28px;
+  margin-top: 15px;
+  margin-right: 15px;
+  & a{
+  margin-right: 20px;
 }
-.matr-custom-facebook:before {
-  content: "\e902";
-  padding-right: 25px;
-  margin-left: 150px;
 }
-.matr-custom-instagram:before {
-  content: "\e903";
-
+.footer-location{
+  text-align: left;
+  float:right;
+  margin-right: 2.1%;
+  margin-top: 15px;
+  & a{
+    margin-left: 10px;
+  }
 }
-.matr-custom-pinterest:before {
-  content: "\e904";
-  padding-right: 25px;
-}
-.matr-custom-twitter:before {
-  content: "\e905";
-  padding-right: 25px;
-}
-.matr-custom-youtube:before {
-  content: "\e906";
-  padding-right: 25px;
-}
-
 
