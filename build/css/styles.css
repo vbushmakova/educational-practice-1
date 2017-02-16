@@ -113,6 +113,11 @@ hr {
 h1 {
   font-size: 60px;
 }
+.slider {
+  width: 100px;
+  margin: 0 auto;
+  border: 3px solid #000;
+}
 .footer {
   height: 60px;
   background-color: #262626;

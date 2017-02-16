@@ -40,17 +40,22 @@
     Lorem ipsum dolor sit amet, concectetur adipiscing elit.
     Pellentesque loborits, nisl at ulamcorper egestas, felisadi piscing dolor, a interdum lorem uma quis magna.
     <hr>
-    <div class="slick-slider">
-        <div>Слайд1</div>
+    <div class="slider">
+        <div> Слайд1</div>
         <div> Слайд2</div>
         <div> Слайд3</div>
+        <div> Слайд4</div>
+        <div> Слайд5</div>
     </div>
+
     <script>
-     $('.multiple-items').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3
-    });
+        $(document).ready(function(){
+            $('.slider').slick({
+                centerMode: true,
+                slidesToShow: 3,
+        });
+        });
+
     </script>
 </div>
 
@@ -84,12 +89,6 @@
         </div>
     </div>
 </footer>
-<script>
-    $(document).ready(function(){
-    $('.slick-slider).slick({
-    setting-name: setting-value
-});
-});</script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
