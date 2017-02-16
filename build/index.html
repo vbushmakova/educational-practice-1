@@ -11,7 +11,7 @@
 <body>
 <header>
     <div class="header">
-<div class="header-top">
+        <div class="header-top">
         <div class="nearest-salon">
             <ul> <li> NEAREST&nbsp;SALON</li>
                  <li> Plush Salon <a href="#" class="matr-chevron-down"></a></li>
@@ -19,42 +19,41 @@
         </div>
         <div class="logo matr-custom-logo"></div>
         <a href="#" class="matr-custom-search icon-search"></a>
-</div></div>
-    <div class="header-menu">
-        <ul>
-            <li> <a href="#">haircare</a>
-            </li><li><a href="#">color</a></li>
-            <li><a href="#">styling</a></li>
-            <li><a href="#">texture</a></li>
-            <li> <a href="#">get&nbsp;inspired</a></li>
-            <li> <a href="#">social</a></li>
-            <li> <a href="#">news</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">professional</a></li>
-        </ul>
+        </div>
     </div>
-
+    <div class="header-menu">
+            <a href="#">haircare</a>
+            <a href="#">color</a>
+            <a href="#">styling</a>
+            <a href="#">texture</a>
+            <a href="#">get&nbsp;inspired</a>
+            <a href="#">social</a>
+            <a href="#">news</a>
+            <a href="#">about</a>
+            <a href="#">professional</a>
+    </div>
 </header>
+
 <div class="content">
-    <div class="video1"> VIDEOS</div>
-    <iframe width="960" height="480" src="https://www.youtube.com/embed/RmNWNLXmswk" frameborder="0"
-            allowfullscreen></iframe>
+    <h1>Videos</h1>
+    <iframe width="100%" height="480px" src="https://www.youtube.com/embed/VmmwwzR536g" frameborder="0" allowfullscreen></iframe>
     Lorem ipsum dolor sit amet, concectetur adipiscing elit.
     Pellentesque loborits, nisl at ulamcorper egestas, felisadi piscing dolor, a interdum lorem uma quis magna.
-    <hr/>
-    <div class="gal">
-        <div>your content</div>
-        <div>your content</div>
-        <div>your content</div>
+    <hr>
+    <div class="slick-slider">
+        <div>Слайд1</div>
+        <div> Слайд2</div>
+        <div> Слайд3</div>
     </div>
     <script>
-        $(document).ready(function () {
-            $('.your-class').slick({
-                'setting-name': 'setting-value'
-            });
-        });
+     $('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+    });
     </script>
 </div>
+
 <footer>
     <div class="footer">
         <div class="footer-menu">
@@ -78,13 +77,19 @@
         </div>
         <div class="footer-location">
             <div class="">
-                <ul>
-                    <li>lOCATION:<a href="#"> united states</a></li>
-                    <li>lANGUAGE:<a href="#"> english</a></div></li>
-                </ul>
+               <ul>
+                   <li>lOCATION:<a href="#"> united states</a></li>
+                   <li>lANGUAGE:<a href="#"> english</a></div></li>
+            </ul>
         </div>
     </div>
 </footer>
+<script>
+    $(document).ready(function(){
+    $('.slick-slider).slick({
+    setting-name: setting-value
+});
+});</script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
