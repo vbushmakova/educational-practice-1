@@ -40,25 +40,15 @@
     Lorem ipsum dolor sit amet, concectetur adipiscing elit.
     Pellentesque loborits, nisl at ulamcorper egestas, felisadi piscing dolor, a interdum lorem uma quis magna.
     <hr>
-    <div class="slider">
-        <div> Слайд1</div>
-        <div> Слайд2</div>
-        <div> Слайд3</div>
-        <div> Слайд4</div>
-        <div> Слайд5</div>
+
+    <div class="autoplay">
+        <div> Слайд1 <img src="https://img.youtube.com/vi/z8M0Fa1JVco/default.jpg"></div>
+        <div> Слайд2 <img src="https://img.youtube.com/vi/Wi2KcdoCuo4/default.jpg"></div>
+        <div> Слайд3 <img src="https://img.youtube.com/vi/8H6dYUgQKB8/default.jpg"></div>
+        <div> Слайд4 <img src="https://img.youtube.com/vi/PZjGrmHdFME/default.jpg"></div>
+        <div> Слайд5 <img src="https://img.youtube.com/vi/_wLGr24VeoI/default.jpg"></div>
     </div>
-
-    <script>
-        $(document).ready(function(){
-            $('.slider').slick({
-                centerMode: true,
-                slidesToShow: 3,
-        });
-        });
-
-    </script>
 </div>
-
 <footer>
     <div class="footer">
         <div class="footer-menu">
@@ -84,13 +74,24 @@
             <div class="">
                <ul>
                    <li>lOCATION:<a href="#"> united states</a></li>
-                   <li>lANGUAGE:<a href="#"> english</a></div></li>
-            </ul>
+                   <li>lANGUAGE:<a href="#"> english</a></li>
+                </ul>
         </div>
     </div>
 </footer>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/slick/slick.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.autoplay').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    });
+
+</script>
 </body>
 </html>
