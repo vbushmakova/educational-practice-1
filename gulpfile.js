@@ -13,7 +13,10 @@ gulp.task('move', function () {
         .pipe(reload({stream: true}));
 
     gulp.src('./src/*.woff', {base: './src'})
-     .pipe(gulp.dest('./build'))
+     .pipe(gulp.dest('./build'));
+
+    gulp.src('./src/js/**/*.*', {base: './src'})
+        .pipe(gulp.dest('./build'));
 });
 
 gulp.task('style', function () {

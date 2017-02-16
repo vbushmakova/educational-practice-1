@@ -28,32 +28,52 @@
 }
 .matr-chevron-down:before {
   content: "\f078";
+  display: inline-block;
 }
 li{
-  list-style-type: none;
+  list-style-type: none;  //  убрать маркер
 }
-
+.header {
+  background-color: #cd1d2c;
+  color: #ffffff;
+  margin: auto auto;
+  text-align: center;
+  height: 60px;
+}
 .icon-search{
-  font-size: 14px;
+  display: inline-block;
+  font-size: 20px;
   float: right;
-  display: block;
-  margin-left: 96%;
+  margin-right: 2.1%;
+  line-height: 60px;
 }
 .nearest-salon {
   display: inline-block;
   margin-left: 2.1%;
+  float: left;
+  margin-top: 10px;
 }
 .logo{
+  display: inline-block;
   font-size: 32px;
   line-height: 60px;
-  margin-left: 45%;
 }
+
 .header-menu{
-
+  text-align: center;
+  background-color: #444444;
   &-links{
-
+    font-size: 16px;
+    &:hover{
+      background-color: black;
+    }
   }
 }
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -62,11 +82,7 @@ a {
   text-decoration: none;
   color: #cccccc;
 }
-header {
-  background-color: #cd1d2c;
-  color: #ffffff;
-  margin: auto auto;
-}
+
 .headerMenu1 div {
   display: inline-block;
   font-size: 14px;
