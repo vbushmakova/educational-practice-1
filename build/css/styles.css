@@ -133,6 +133,15 @@ h2 {
 .big-video a img {
   display: block;
 }
+.play {
+  position: absolute;
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: -35%;
+  height: 15%;
+  width: 15%;
+  z-index: 1000;
+}
 .footer {
   height: 60px;
   background-color: #262626;
