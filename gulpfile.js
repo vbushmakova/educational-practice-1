@@ -17,6 +17,9 @@ gulp.task('move', function () {
 
     gulp.src('./src/js/**/*.*', {base: './src'})
         .pipe(gulp.dest('./build'));
+
+    gulp.src('./src/*.png', {base: './src'})
+        .pipe(gulp.dest('./build'));
 });
 gulp.task('style', function () {
     return gulp.src('./src/less/**/*.less')

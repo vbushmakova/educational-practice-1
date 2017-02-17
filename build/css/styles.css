@@ -125,6 +125,14 @@ h2 {
   width: 93%;
   margin: 5px 5px;
 }
+.big-video img {
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+.big-video a img {
+  display: block;
+}
 .footer {
   height: 60px;
   background-color: #262626;
